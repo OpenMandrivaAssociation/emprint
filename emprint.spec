@@ -7,6 +7,7 @@ Release: 	%mkrel 0.cvs%{cvs}.1
 Source:		%{name}-%{cvs}.tar.bz2
 License: 	BSD
 Group: 		System/Servers
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: 		http://www.enlightenment.org/
 BuildRequires:	imlib2-devel, X11-devel
 BuildRequires:	evas-devel
