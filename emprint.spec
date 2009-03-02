@@ -4,7 +4,7 @@ Summary: 	E17 screen captire utility
 Name: 		emprint
 Version: 	0.0.1
 Release: 	%mkrel 2.svn%{svn}.1
-Source:		%{name}-%{svn}.tar.bz2
+Source:		%{name}-%{version}.tar.bz2
 License: 	BSD
 Group: 		System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
