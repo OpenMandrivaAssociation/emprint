@@ -1,18 +1,18 @@
-%define cvs		20080203
+%define svn 20090227
 
 Summary: 	E17 screen captire utility
 Name: 		emprint
 Version: 	0.0.1
-Release: 	%mkrel 2.cvs%{cvs}.1
-Source:		%{name}-%{cvs}.tar.bz2
+Release: 	%mkrel 2.svn%{svn}.1
+Source:		%{name}-%{svn}.tar.bz2
 License: 	BSD
 Group: 		System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: 		http://www.enlightenment.org/
 BuildRequires:	imlib2-devel, X11-devel
-BuildRequires:	evas-devel
-BuildRequires:	ecore-devel
-BuildRequires:	edje-devel, edje
+BuildRequires:	evas-devel >= 0.9.9.050
+BuildRequires:	ecore-devel >= 0.9.9.050
+BuildRequires:	edje-devel >= 0.9.9.050, edje >= 0.9.9.050
 
 %description
 Emprint is a utility for taking screenshots of the entire screen, a specific
