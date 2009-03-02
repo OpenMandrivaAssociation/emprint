@@ -20,7 +20,7 @@ window, or a specific region. It is written with the Enlightenment Foundation
 Libraries.
 
 %prep
-%setup -q -n %name
+%setup -q -n %name-%version
 
 %build
 ./autogen.sh
