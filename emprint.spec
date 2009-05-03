@@ -1,4 +1,4 @@
-%define svn 20090227
+%define svn 20090503
 
 Summary: 	E17 screen captire utility
 Name: 		emprint
@@ -11,7 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: 		http://www.enlightenment.org/
 BuildRequires:	imlib2-devel, X11-devel
 BuildRequires:	evas-devel >= 0.9.9.050
-BuildRequires:	ecore-devel >= 0.9.9.050
+BuildRequires:	ecore-devel >= 0.9.9.060
 BuildRequires:	edje-devel >= 0.9.9.050, edje >= 0.9.9.050
 
 %description
@@ -23,13 +23,13 @@ Libraries.
 %setup -q -n %name-%version
 
 %build
-./autogen.sh
+NOCONFIGURE=1 ./autogen.sh
 %configure2_5x
 %make
 
 %install
 rm -rf %{buildroot}
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf %{buildroot}
