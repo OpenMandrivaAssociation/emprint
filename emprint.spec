@@ -1,4 +1,4 @@
-%define svn 20090503
+%define svn 20100624
 
 Summary: 	E17 screen captire utility
 Name: 		emprint
