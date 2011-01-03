@@ -1,9 +1,9 @@
-%define svn 20100624
+%define svn 20101107
 
 Summary: 	E17 screen captire utility
 Name: 		emprint
-Version: 	0.0.1
-Release: 	%mkrel 2.svn%{svn}.3
+Version: 	0.1.0
+Release: 	%mkrel 1.svn%{svn}.1
 Source:		%{name}-%{version}.tar.bz2
 License: 	BSD
 Group: 		System/Servers
