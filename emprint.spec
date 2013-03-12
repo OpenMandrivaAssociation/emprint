@@ -9,7 +9,7 @@
 #cd ..; \
 #tar -Jcf emprint-$PKG_VERSION.tar.xz emprint/ --exclude .svn --exclude .*ignore
 
-%define svnrev 76819
+%define svnrev 84427
 
 Summary:	E17 screen captire utility
 Name:		emprint
