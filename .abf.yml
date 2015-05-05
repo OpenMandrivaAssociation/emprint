@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   emprint-0.1.0.84427.tar.xz: 94945765c767f9e51ec42a9f178ad750283a874f
+sources:
+  emprint-0.1.0.20150506.tar.xz: c76e18987953125dc29737cddcb1a19fba53d708

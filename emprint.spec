@@ -1,13 +1,13 @@
-%define svnrev 84427
+%define gitdate 20150506
 
 Summary:	E17 screen captire utility
 Name:		emprint
 Version:	0.1.0
-Release:	2.%{svnrev}.2
+Release:	3.2
 License:	BSD
 Group:		System/Servers
 Url:		http://www.enlightenment.org/
-Source0:	%{name}-%{version}.%{svnrev}.tar.xz
+Source0:	%{name}-%{version}.%{gitdate}.tar.xz
 BuildRequires:	pkgconfig(ecore)
 BuildRequires:	pkgconfig(edje)
 BuildRequires:	pkgconfig(evas)
@@ -26,7 +26,7 @@ Libraries.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -qn %{name}
+%setup -qn %{name}-%{gitdate}
 
 %build
 autoreconf -fi
