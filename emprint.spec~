@@ -3,7 +3,7 @@
 Summary:	E17 screen captire utility
 Name:		emprint
 Version:	0.1.0
-Release:	2.%{svnrev}.3
+Release:	2.%{svnrev}.2
 License:	BSD
 Group:		System/Servers
 Url:		http://www.enlightenment.org/
