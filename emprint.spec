@@ -6,7 +6,7 @@ Version:	0.1.0
 Release:	3.2
 License:	BSD
 Group:		System/Servers
-Url:		http://www.enlightenment.org/
+Url:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.%{gitdate}.tar.xz
 BuildRequires:	pkgconfig(ecore)
 BuildRequires:	pkgconfig(edje)
